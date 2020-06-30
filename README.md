@@ -5,7 +5,11 @@ apt-get upgrade -y
 apt-get dist-upgrade -y
 apt-get autoremove -y
 apt-get install apache2 php7.0 php7.0-cli php7.0-fpm php7.0-gd php-ssh2 libapache2-mod-php7.0 php7.0-mcrypt mysql-server php7.0-mysql git unzip zip postfix php7.0-curl mailutils php7.0-json phpmyadmin -y
-php5enmod mcrypt
+
+php5enmod mcrypt 
+# for ubuntu 18.4
+sudo apt install php-dev libmcrypt-dev php-pear
+
 
 nano /etc/apache2/sites-enabled/000-default.conf
 --ADD LINE-- 
