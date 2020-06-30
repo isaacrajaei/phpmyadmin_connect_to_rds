@@ -30,3 +30,5 @@ $cfg['Servers'][$i]['auth_type']     = 'config';
 $cfg['Servers'][$i]['user']          = '__FILL_IN_DETAILS__';
 $cfg['Servers'][$i]['password']      = '__FILL_IN_DETAILS__';
 ```
+
+# Reference https://www.youtube.com/watch?v=Bz-4wTGD2_Q
